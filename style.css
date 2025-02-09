@@ -1,0 +1,39 @@
+div.stApp {
+    background: linear-gradient(30deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(21, 246, 0), rgb(255, 255, 255));
+    animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% { background-position: 0% 25%; }
+    25% { background-position: 25% 50%; }
+    50% { background-position: 50% 75%; }
+    75% { background-position: 75% 100%; }
+    100% { background-position: 100% 25%; }
+}
+
+div.block-container {
+    background-color: transparent;
+}
+
+div.element-container {
+    border-radius: 25px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+span.st-emotion-cache-10trblm {
+    border-radius: 25px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+div.st-emotion-cache-1vbkxwb {
+    font-family: 'Alata', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+button.st-emotion-cache-7ym5gk {
+    background-color: rgb(148, 195, 234);
+}
